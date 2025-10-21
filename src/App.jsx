@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./Button";
 import Planetes from "./Planetes";
 import Etat from "./Etat";
+import RandomUsers from "./RandomUsers";
 
 function App() {
   const nom = "Vincent";
@@ -17,6 +18,7 @@ function App() {
       <Button handleClick={handleClick}/>
       <Planetes />
       <Etat/>
+      <RandomUsers/>
     </>
   );
 }

@@ -1,0 +1,15 @@
+.userCard{
+    width: 20%;
+    text-align: center;
+    border: solid 2px wheat;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.userCard img{
+    border: solid 2px white;
+    border-radius: 70px;
+}
+.userCard p:last-of-type::after{
+    content: " ans";
+}

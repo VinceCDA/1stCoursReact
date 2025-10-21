@@ -1,0 +1,17 @@
+.userCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.userCard:nth-child(even){
+    background-color: gray;
+}
+.userCard:nth-child(odd){
+    background-color: lightslategray;
+}
+
+.container {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
